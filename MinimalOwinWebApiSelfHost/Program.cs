@@ -16,7 +16,7 @@ namespace MinimalOwinWebApiSelfHost
         static void Main(string[] args)
         {
             // Specify the URI to use for the local host:
-            string baseUri = "http://localhost:8080";
+            string baseUri = "http://localhost:9999";
 
             Console.WriteLine("Starting web Server...");
             WebApp.Start<Startup>(baseUri);
